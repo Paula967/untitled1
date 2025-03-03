@@ -3,9 +3,38 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/lenovo/IdeaProjects/untitled1">
         <classes>
-            <class name="TestPackage.TestRegisterUser"/>
-            <class name="TestPackage.TestLoginUserWithValidData"/>
-            <class name="TestPackage.TestLoginWithInvalidData"/>
+            <class name="TestPackage.TestRegisterUser">
+                <methods>
+                    <include name="Verify_that_home_page_is_visible_successfully"/>
+                    <include name="Verify_that_newUserSignUp_is_visible_successfully"/>
+                    <include name="Verify_that_EnterAccountInformation_is_visible_successfully"/>
+                    <include name="Verify_that_ACCOUNTCREATED_is_visible_successfully"/>
+                    <include name="Verify_that_loggedIn_is_visible_successfully"/>
+                    <include name="Verify_that_AccountDeleted_is_visible_successfully"/>
+                </methods>
+            </class>
+            <class name="TestPackage.TestLoginUserWithValidData">
+                <methods>
+                    <include name="Verify_that_home_page_is_visible_successfully"/>
+                    <include name="Verify_that_LoginToYourAccount_is_visible_successfully"/>
+                    <include name="Verify_that_loggedIn_is_visible_successfully"/>
+                </methods>
+            </class>
+            <class name="TestPackage.TestLoginWithInvalidData">
+                <methods>
+                    <include name="Verify_that_home_page_is_visible_successfully"/>
+                    <include name="Verify_that_LoginToYourAccount_is_visible_successfully"/>
+                    <include name="Verify_that_ErrorYourEmailOrPasswordIsIncorrect_is_visible_successfully"/>
+                </methods>
+            </class>
+            <class name="TestPackage.TestLogoutUser">
+                <methods>
+                    <include name="Verify_that_home_page_is_visible_successfully"/>
+                    <include name="Verify_that_LoginToYourAccount_is_visible_successfully"/>
+                    <include name="Verify_that_loggedIn_is_visible_successfully"/>
+                    <include name="Verify_that_user_is_navigated_toLoginPage"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

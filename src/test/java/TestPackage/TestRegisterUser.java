@@ -25,14 +25,12 @@ public class TestRegisterUser extends BaseClass{
        registerUserPage
                .assertHomePageIsVisible();
     }
-
     @Test(priority = 2)
     public void Verify_that_newUserSignUp_is_visible_successfully(){
         signUpAndLoginPage=registerUserPage
                 .clickOnSignUpAndLoginButton()
                 .assertSignUpHeader();
     }
-
     @Test(priority =3)
     public void Verify_that_EnterAccountInformation_is_visible_successfully(){
          signUpPage =signUpAndLoginPage

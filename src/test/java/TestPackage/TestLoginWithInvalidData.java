@@ -1,6 +1,5 @@
 package TestPackage;
 
-import GuiPages.LoginPage;
 import GuiPages.RegisterUserPage;
 import GuiPages.SignUpAndLoginPage;
 import com.shaft.driver.SHAFT;

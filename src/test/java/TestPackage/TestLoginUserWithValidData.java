@@ -24,7 +24,6 @@ public class TestLoginUserWithValidData extends BaseClass{
     }
     @Test(priority = 9)
     public void Verify_that_loggedIn_is_visible_successfully(){
-
         LoginPage loginPage =signUpAndLoginPage
                 .loginWithUserNameAndPassword
                         (

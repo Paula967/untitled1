@@ -12,9 +12,12 @@ public class LoginPage extends BasePage{
         assertElementIsVisible(locatorType.CSS,"li:nth-child(10) a:nth-child(1)");
         return this;
     }
-    public SignUpAndLoginPage clickOnLogout(){
+    public LoginPage clickOnLogout(){
         clickElement(locatorType.CSS,"a[href='/logout']");
-        return new SignUpAndLoginPage(driver);
+        return new LoginPage(driver);
+    }
+    public String getPageURL(){
+        return driver.browser().getCurrentURL();
     }
 
 
