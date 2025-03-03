@@ -4,6 +4,7 @@ import com.shaft.driver.SHAFT;
 import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage{
+
     public LoginPage(SHAFT.GUI.WebDriver driver) {
         super(driver);
     }

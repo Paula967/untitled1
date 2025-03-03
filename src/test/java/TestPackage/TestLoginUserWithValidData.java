@@ -2,7 +2,6 @@ package TestPackage;
 
 import GuiPages.*;
 import com.shaft.driver.SHAFT;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class TestLoginUserWithValidData extends BaseClass{
@@ -13,6 +12,7 @@ public class TestLoginUserWithValidData extends BaseClass{
 
     @Test(priority = 7)
     public void Verify_that_home_page_is_visible_successfully(){
+        registerUserPage=new RegisterUserPage(driver);
         registerUserPage
                 .assertHomePageIsVisible();
     }
@@ -34,7 +34,6 @@ public class TestLoginUserWithValidData extends BaseClass{
                         )
                 .clickOnLoginButton()
                 .assertLoggedInUserName();
-
         loginPage.clickOnLogout();
     }
 }

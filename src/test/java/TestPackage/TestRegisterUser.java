@@ -60,7 +60,8 @@ public class TestRegisterUser extends BaseClass{
     public void Verify_that_AccountDeleted_is_visible_successfully(){
         accountCreatedPage
                 .clickOnDeleteAccount()
-                .assertAccountDeletedPageMessage();
+                .assertAccountDeletedPageMessage()
+                .clickOnContinue();
     }
     private AccountCreatedPage createNewAccount(){
         accountCreatedPage=
