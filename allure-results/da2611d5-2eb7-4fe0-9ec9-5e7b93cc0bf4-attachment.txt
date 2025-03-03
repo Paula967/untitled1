@@ -1,0 +1,6 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 9' test cases in the current suite                                        
+                  Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_LoginToYourAccount_is_visible_successfully'                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m

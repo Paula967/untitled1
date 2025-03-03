@@ -1,0 +1,346 @@
+[INFO ] 2025-03-03 11:51:33.529 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.9.1.20250216[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:51:33.647 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-03-03 11:51:33.691 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-03-03 11:51:34.021 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-03-03 11:51:36.537 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2025-03-03 11:51:37.104 [main] ReportManager - TestNG run detected...
+[ERROR] 2025-03-03 11:51:37.524 [main] AllureLifecycle - Could not start step: no test case running
+[INFO ] 2025-03-03 11:51:37.539 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignUpTestData.json".
+[ERROR] 2025-03-03 11:51:37.554 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2025-03-03 11:51:37.558 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2025-03-03 11:51:37.559 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2025-03-03 11:51:37.560 [main] AllureLifecycle - Could not stop step: no step running
+[ERROR] 2025-03-03 11:51:37.564 [main] AllureLifecycle - Could not start step: no test case running
+[INFO ] 2025-03-03 11:51:37.565 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/AccountDetailsTestData.json".
+[ERROR] 2025-03-03 11:51:37.566 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2025-03-03 11:51:37.568 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2025-03-03 11:51:37.569 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2025-03-03 11:51:37.570 [main] AllureLifecycle - Could not stop step: no step running
+[ERROR] 2025-03-03 11:51:37.787 [main] AllureLifecycle - Could not start step: no test case running
+[INFO ] 2025-03-03 11:51:37.787 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/SignInTestData.json".
+[ERROR] 2025-03-03 11:51:37.787 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2025-03-03 11:51:37.787 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[ERROR] 2025-03-03 11:51:37.787 [main] AllureLifecycle - Could not update step: no step running
+[ERROR] 2025-03-03 11:51:37.787 [main] AllureLifecycle - Could not stop step: no step running
+[INFO ] 2025-03-03 11:51:37.849 [main] Utils - [TestNG] Running:
+  C:\Users\lenovo\IdeaProjects\untitled1\testng.xml
+
+[INFO ] 2025-03-03 11:51:37.861 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of setup configuration method                                                
+                                                      'TestPackage.TestRegisterUser.setup'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:51:37.936 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-03-03 11:51:38.086 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.25".
+[INFO ] 2025-03-03 11:51:38.101 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-port=57899, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\lenovo\IdeaProject..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-03-03 11:51:38.101 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-03-03 11:51:38.101 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2025-03-03 11:51:38.698 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2025-03-03 11:51:38.795 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2025-03-03 11:51:39.564 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2025-03-03 11:51:39.576 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2025-03-03 11:51:39.577 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2025-03-03 11:51:39.579 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2025-03-03 11:51:39.580 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-03-03 11:51:39.581 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.584 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.584 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.585 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.585 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/23)[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.585 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.585 [] wire -  >> "[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.586 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2025-03-03 11:51:39.586 [] headers - >> Accept: */*
+[DEBUG] 2025-03-03 11:51:39.586 [] headers - >> Host: api.github.com
+[DEBUG] 2025-03-03 11:51:39.586 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2025-03-03 11:51:39.587 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/23)
+[DEBUG] 2025-03-03 11:51:39.587 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Date: Mon, 03 Mar 2025 09:48:56 GMT[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "ETag: W/"65b788ec0d2731d72935e86db2b7a7f8fa483733771c1c1060ecd7ab5fac2ace"[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Last-Modified: Mon, 24 Feb 2025 19:40:59 GMT[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-RateLimit-Remaining: 55[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-RateLimit-Reset: 1740997170[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-RateLimit-Used: 5[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "Content-Length: 1298[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "X-GitHub-Request-Id: E22E:2B9075:3CC0660:3F0A954:67C57B07[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.879 [] wire -  << "[\r][\n]"
+[DEBUG] 2025-03-03 11:51:39.896 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Date: Mon, 03 Mar 2025 09:48:56 GMT
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << ETag: W/"65b788ec0d2731d72935e86db2b7a7f8fa483733771c1c1060ecd7ab5fac2ace"
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Last-Modified: Mon, 24 Feb 2025 19:40:59 GMT
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-Frame-Options: deny
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Content-Encoding: gzip
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Server: github.com
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-RateLimit-Remaining: 55
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-RateLimit-Reset: 1740997170
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-RateLimit-Used: 5
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << Content-Length: 1298
+[DEBUG] 2025-03-03 11:51:39.896 [] headers - << X-GitHub-Request-Id: E22E:2B9075:3CC0660:3F0A954:67C57B07
+[DEBUG] 2025-03-03 11:51:39.924 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]Wmo[0xdb]6[0x10][0xfe]+[0x82][0x8a]b@f[0xea][0xcd]v[0x16][0x9]([0xba]5I_>$E[0x97]l[0x3][0xd6][0x15][0x6]%[0x9d]%&[0x12][0xc9][0x92][0x94]=[0xd7][0xe8][0xdf][0x91]"
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "R[0x8c]DX[0xd3][0xae][0xf6][0x10][0xc0][0xa6][0x15][0xf1][0xb9][0xbb][0xe7][0x8e][0xcf][0x1d][0xb7]~[0xa7][0x1a]?[0xf3]kc[0xa4][0xce][0xc2][0x90]J[0x16]T[0xcc][0xd4]][0x1e][0x14][0xa2][\r][0x15]H[0xa1][0xc3][0xab][0x9a].[0xcd][0xeb]w[0xe1][0xd5][0xeb]_^^/[0xce]/_[0xbd][0xb9]<[0xc7]5@5[0xe8]0[0x89][0x92]8[0x99][0xce][0xa3][0xa9]?[0xf1][0xa9][0xd6]`[0xf4][0xe2]p[0x98]a[0x8f][0x88][0xd0][0x9d]l[0x4]-G[0xd0][0xfd]C[0xfd][0xdd].[0xf][0xf0][0xdb][0xe7][0x9c][0xb6]0ih[0xe][0xcd]g[0xb4]U[0x9b][0xb6][0x19]Y[0xba]G[0xca][0xe3]t[0x18]Z[0x85]i[0x10][0x7]H[0xcb]<J[0x92][0x19][0xc2][0xb1][0xd2][0xcf]v,!I[0x9d][0xa9][0x85][0xf2][0xb3][0xad][0xdf][0x88][0x8a]qd[0xbf][0x7]'[0xb4]0Lp[0xfd]>[0x17][0xe6][0xc3][0xb0]m[0x16][0x9f][0xa4]'[0xc9]I2[0xf1][0xb9](aa[0x91][0xfc][0x8b][0xb3][0x8b][0xe3]wm[0x1a]][0x9e][0x9d][0xcf][0xde]^W[0x9b][0xb7]go[0x9e]Y[0xee]W[0xd4]P5[0xe6][0xde]=[0xbc]#[0xa8][0xd3][0xa0][\n]"
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "[0xc1][\r]p[0xe3][0xd2][0xcb]x[0x18][0xcf][0xa7][0xc7]'[0xcf]W[0xcf][0xac][0x9f][0x95][0x1a]0[0x9c][0x19][0xcb][0xf9]c[0xb5]a[0xc1]t[0xf8][0xd0][0xf5][0xa7][0xf3][0x17][0xe8][0xfc][0xd3][0xf9][0xd9]WI[0xa4]R[0x8e]7[0xe3][0x9e][0xa5]h[0x1a][0xb1]F[0xdc]q[0x18][0xf][0xcb][0xf2]Q[0xd3][0xe1][0xe]d[0x7][0xc8]x[0xb5]? [0x82]lCaj@[0x8e]1t['[0x15][0xd3]_[0xab][0xf6][0xc7]]u[0x0][$Q[0x1b][0xcc][0xad][0x85][0xd4][0x98].[0x5][0xe3]:[0x1f][0x1d][0xcb][0xc7]A[0x7][0x8]tv[0xcd][0xd1][0xcf][0xad];[0xc5][0xe][0xbb][0xcb]u[0xa1][0x98]tU[0xb6][0xf]![0xf][0x80][0x10]X[0xa8][0x8a]r[0xf6][0x89][0xee][\r][0x8c]@[0x1a][0xf1][0x9c][0xec][0xec][0xe3][0xa0][0x3]@ Xa[0xa9][0xef][0x85][0xd4]#lC[0xa9][0xd8][0x8a][0x16][0x1b]K[0xa3][0x82][0x2][0xd8][\n]"
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "s[0xb4]?[0xfa][0x8][\n]"
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "[0xc1][0xcd]F[0x2][0x1e][0xbe][0x17][0xc2][0xe0][0xf][0x9b][0xe7][0xc5][0x8a][0xc1]z1<[0x96]][0xde][0xb0][0xc2][0xa6][0x92][0x19]X[0xd0][0xb2][0xb5][0xf2][0xb1][0xa4][0x8d][0x86][0xcf][0xf7][0x15][0xe2][0xd7][0xf3][0xc5][0xed][0xfa][0xec][0xed][0xe9]+[0xb8]>[0xd6][0xb3][0x8b][0xb3][0xd3][0x9b][0x95][0x85][0xa6][0xd5][0xc2][0xea][0x1c][0xc2][0x8f][0x4][\n]"
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "k[0xae][0x2][0xb3]@Ih[0x99]a[0xba][0xc6]7Z[0x8a][0xd0][0x88][0xf9][0xaf][0xef][0x97][\n]"
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "[0x1b][0xc2]`x[0xe2]K[0x5]C3[0xd8]=*[0x14]P[0x83][0xc]Q|[0xcb][0xb7]JH[0xa2][0x84]$[0xb3][0xeb]8[0xcd]fQ6[0x9d][0xfd][0x89][0xd0].[0x16]][0xf1][0xad]yj[0xdf][0x1a][0xf4]?{[0xff][0xc1][0x6][0xa0]r[0xda][0x8c][0x95][0xf9][0xdb][[0xd6][0xb0],[0xcf][0x9f][0x98][0xdc][0xb]v[0xd8]?[0x86][0xcd]E[0xb9][0xc1][0xe8][0x9f]<[0xf1][0xfe][0xa8][0xa9][0xf9]A{[0xa7]5[0xe5][0x15][0x94][0xf1]#[0xef]E[0xd7]J[0x8f][0x89]@[0x81]6[0x4]C[0xec][0xf0][0xc8]g[0xf7]xK%Zo[0x1e][0xcc][0x83][0xc8]3[0xc2]-b/[0xdf]x?[0x97] [0x81][0x97][0x14]U[0xd6]c[0xdc][0xbb]k[0xdb]_[0xeb]N[0xb2]k[0x9a][0x10][[0xc9][0xec][0x8b][0xc6]o[0xb4][0xe0]D[0x17]5[0xb4][0x94][0xac]h[0xc3]Jj[0x84][0xfa][0x9f][0xbc][0x98][0xde][0xf7]bp=[0x17][0x9c]UT[0x15][0x8c]fk[0xc8]K<m[0xa0]Z[0xca]i[0x5];/[0xd2] [0xe9][0xb9]H[0x83][0xe9][0x1][0xb8]Hv^[0xa0][0xea][0x4][0x1b][0xda]6[0x99][0xe6][0xf4][0x16][0xec][0xaa][0xf]<A;H~[0x12][0xcc][0xe]`.[0xb6][0xe6]~[0x93][0xc8]+x[0xa7]W[0xbf][0xbf]d[\r]\[0xf4][0xf1]]c[0x11]8[0x3][0xad][0xa8][0xf1][0xb8][0x95][0x86][0xae][0x97]p[0x1b][0xcd][0xa7][0xf3][0xd9][0xf7][0xe4][0xf8][0xd8][0x1a]R0h2x[0xc0]q[0xc8][0x80]+0[0x9d]tV.[0xd0]J[0x8e][0x1f][0xc][0xbe][0x7][0xfd]'[0x8b][0xae];)[0x85]2[0x1e]G[0xc5]_[0x81]w[0xd3]qf<[0xa9][0x84][0x4]e[0x18]ho[0x89][0xc1]Y[0xe6][0x96][0xb4]`[\r]36d[0x9c][0x15][0x19][0xa6][0x12][0xa7][0x8f]%[0xab]:[0xe5]Z[0x85][0xb7][0xc4][0x12][0xeb]7[0xbb][0x8e]v[0x0][0xf7]N[0x1e]$U[0xe3][0x8c][0xca]Y[0xd7][0xd6][0x1f][0x83][0xbb]ev[0xb7] 78[0xec][0xf4]y[0x9e][0x5][0xc9][0x9][0x1e]/t[0x18]W)[0x9e][0xb8]}[0xf]Z[0x1a][0xb9]lk[0xda]JK[0x4][0xe6]W{[0x94][0x97]C[0xf4]{[0x87][0x99]F[0xae]v[0xf1]<[0xa7]d[0x89]B[0x8b][0xea]A[0x14]|[0xec][0x9c][0x98][0x94]%[0xe1][0xb0]&[0x98][0x8d][\n]"
+[DEBUG] 2025-03-03 11:51:39.924 [] wire -  << "[0x5]E[0x93][0x9c]*[0xb2][0xae][0x81][0x93]~V[0xc6])[0x86][0xe0][0xec]El[0x8a]41[0x82][0xe4]J[0xac]-[0xf9][0x86][0x16][0xb7]D([0xd2][0xd0]6[0xb7]E:[0xd4][0xe4]>[0xd5][0x92]Fs[0xeb][0xe7][0x92][0xfd][0xed])Z[0x80][\r][0xbf][0xc4][0xfe]"[0xf8][0xc4][0xd3][0xa2][0x5]oM[0x15]G[0xf4][0xc4][0x91][0xd3][0xd3][0xb4]o[0x85][0xa6][0xd1]P[0xff][0xad]X[0x1]YS[0x86][0x94][0xf4]c[0xf5][0x1]hw[0xc5][0xef][0xb4][0xdb]J[0x86][0xab][0xdc][0xcc]}[0x92][0x1c][0xd5]z[0x90][0xec]8F[0xbd]p[0x9a][0x1d]'[0x87][0xa8][0xa5]8z`[0x95]J[0x8a]*[0x1d][0xb4][0x14]G[0x9b]@6[0x1d][0x1e]n[0x9d][0xb9]_[0x4][0xfb][0xb7][0xc4][0xb4]*[0xd2]?[0xee][0x1d][0x9a][0x6][0xf1][0xb4]o"[0xb8][0x9a][0x1d][0xc2][0xa1]([0xdd]9[0xc4][0xb]&[0xed][0xc8]~w[0x1b][0x1c][0xb8][0xee]-[0xc7]A<[0xb4]/\[0x1d][0x1f][0xc4][0xb2];[0xde][0xc3][0xb0][0x81]%[0xe][0x92][0xdc][0x9f]d[0xf6][0xcf]p[0x8c][0xe7][0xd6][0xfe][0x1d][0x1d][0xbd][0xc4][0x8e]9tl[0xbc][0xa5][0x1d][0x1d]e[0xdf][0xdc]km[0x16][0xa8][0x82]{[0xe3][0x0][0x6][0x1f][0x4][0xa3][0x91][0xb][0x7][0xa4][0xbe],[0xed]=[0xf0][0xd1]{[0xd6][0xba][0x83]c"[0xee]pq^[0x12][0x86]68[0xd5]u[0x1c][0xc7][0xb0]x[0xe2][0xff][0x18][0xbb]/[0x82]_[0xd1][0xc4]ohW[0xe1][0xa4][0x87][0xab]Z[0x8]EqV[0xc1][0xa5][0xd5]g[0xd4]b[0xbc][0xff][0xd9][0xe7]@[0x15][0xee][0xc4][0x95][0x12][0xc5]-[0xf4]K[0xd8][0x80][0xc6]g8o[0xb6]8[[0xbb][0x9b][0xc4]`a[0xfa][0xf9][0x1f][0xcb][0xc6]W[0x85]N[0x10][0x0][0x0]"
+[DEBUG] 2025-03-03 11:51:39.924 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2025-03-03 11:51:40.216 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@20245d3e
+[DEBUG] 2025-03-03 11:51:40.216 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[WARN ] 2025-03-03 11:51:43.972 [main] ReportManager - Mar 03, 2025 11:51:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-03-03 11:51:43.972 [main] ReportManager - WARNING: Unable to find CDP implementation matching 123
+[WARN ] 2025-03-03 11:51:43.972 [main] ReportManager - Mar 03, 2025 11:51:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+[WARN ] 2025-03-03 11:51:43.972 [main] ReportManager - WARNING: Unable to find version of CDP to use for 123.0.6312.105. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-03-03 11:51:44.002 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-03-03 11:51:44.108 [main] ReportManager - Target URL: "https://automationexercise.com/"
+[INFO ] 2025-03-03 11:51:44.228 [main] ReportManager - Initial URL: "about:blank"
+[WARN ] 2025-03-03 11:51:44.583 [] ReportManager - 
+[1;33m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          ⚠️ You're using an outdated engine version "9.1.20250216" ⚠️                                          
+                                 Kindly upgrade to the latest one "9.1.20250224" to ensure the best experience.                                 
+                           For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:51:53.857 [main] ReportManager - Navigate to url "https://automationexercise.com/".
+[INFO ] 2025-03-03 11:51:53.866 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setup'
+[INFO ] 2025-03-03 11:51:53.905 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:51:53.908 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-03-03 11:51:54.059 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 9' test cases in the current suite                                        
+                            Test Method: 'TestPackage.TestRegisterUser.Verify_that_home_page_is_visible_successfully'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:51:54.095 [main] ReportManager - Assert that the element located by "By.cssSelector: div[class='item active'] div[class='col-sm-6'] h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-03 11:51:54.325 [main] ReportManager - Get  dom  attribute "Full-Fledged practice website for Automation Engineers"
+[DEBUG] 2025-03-03 11:51:54.327 [main] ReportManager - Expected "null", and actual "null"
+[DEBUG] 2025-03-03 11:52:01.591 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:57902<->140.82.121.6:443 closed
+[INFO ] 2025-03-03 11:52:04.032 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_11-52-04-016_03032025'
+[INFO ] 2025-03-03 11:52:04.033 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:04.035 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-03 11:52:04.036 [main] ReportManager - Verify that home page is visible successfully
+[INFO ] 2025-03-03 11:52:04.041 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_home_page_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:04.042 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_home_page_is_visible_successfully'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:04.162 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 9' test cases in the current suite                                        
+                          Test Method: 'TestPackage.TestRegisterUser.Verify_that_newUserSignUp_is_visible_successfully'                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:04.273 [main] ReportManager - Click " Signup / Login"
+[INFO ] 2025-03-03 11:52:04.279 [main] ReportManager - Assert that the element located by "By.cssSelector: div[class='signup-form'] h2" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-03 11:52:05.381 [main] ReportManager - Get  dom  attribute "New User Signup!"
+[DEBUG] 2025-03-03 11:52:05.382 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:05.868 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_11-52-05-866_03032025'
+[INFO ] 2025-03-03 11:52:05.868 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:05.869 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-03 11:52:05.869 [main] ReportManager - Verify that New User Signup is visible
+[INFO ] 2025-03-03 11:52:05.872 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_newUserSignUp_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:05.872 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+               Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_newUserSignUp_is_visible_successfully'               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:05.881 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 9' test cases in the current suite                                        
+                     Test Method: 'TestPackage.TestRegisterUser.Verify_that_EnterAccountInformation_is_visible_successfully'                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:06.089 [main] ReportManager - Type "Name"
+[INFO ] 2025-03-03 11:52:06.486 [main] ReportManager - Type "Email Address"
+[INFO ] 2025-03-03 11:52:06.978 [main] ReportManager - Click "Signup"
+[INFO ] 2025-03-03 11:52:06.984 [main] ReportManager - Assert that the element located by "By.xpath: //b[normalize-space()='Enter Account Information']" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-03 11:52:07.949 [main] ReportManager - Get  dom  attribute "By.xpath: //b[normalize-space()='Enter Account Information']"
+[DEBUG] 2025-03-03 11:52:07.950 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:10.103 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_11-52-10-096_03032025'
+[INFO ] 2025-03-03 11:52:10.105 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:10.106 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-03 11:52:10.107 [main] ReportManager - Verify that New User Signup is visible
+[INFO ] 2025-03-03 11:52:10.123 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_EnterAccountInformation_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:10.124 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+          Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_EnterAccountInformation_is_visible_successfully'          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:10.137 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 9' test cases in the current suite                                        
+                         Test Method: 'TestPackage.TestRegisterUser.Verify_that_ACCOUNTCREATED_is_visible_successfully'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:10.867 [main] ReportManager - Click "Mr."
+[INFO ] 2025-03-03 11:52:11.267 [main] ReportManager - Type "Name *"
+[INFO ] 2025-03-03 11:52:11.575 [main] ReportManager - Type "Password *"
+[INFO ] 2025-03-03 11:52:13.840 [main] ReportManager - Select "9" from "By.cssSelector: #days".
+[INFO ] 2025-03-03 11:52:14.425 [main] ReportManager - Select "January" from "By.cssSelector: #months".
+[INFO ] 2025-03-03 11:52:15.790 [main] ReportManager - Select "2000" from "By.cssSelector: #years".
+[INFO ] 2025-03-03 11:52:15.935 [main] ReportManager - Click "Sign up for our newsletter!"
+[INFO ] 2025-03-03 11:52:16.070 [main] ReportManager - Click "Receive special offers from our partners!"
+[INFO ] 2025-03-03 11:52:16.705 [main] ReportManager - Type "First name *"
+[INFO ] 2025-03-03 11:52:16.933 [main] ReportManager - Type "Last name *"
+[INFO ] 2025-03-03 11:52:17.213 [main] ReportManager - Type "Company"
+[INFO ] 2025-03-03 11:52:17.425 [main] ReportManager - Type "Address * (Street address, P.O. Box, Company name, etc.)"
+[INFO ] 2025-03-03 11:52:17.618 [main] ReportManager - Type "Address 2"
+[INFO ] 2025-03-03 11:52:18.230 [main] ReportManager - Select "United States" from "Country *".
+[INFO ] 2025-03-03 11:52:18.445 [main] ReportManager - Type "State *"
+[INFO ] 2025-03-03 11:52:18.644 [main] ReportManager - Type "City * Zipcode *"
+[INFO ] 2025-03-03 11:52:18.861 [main] ReportManager - Type "By.cssSelector: #zipcode"
+[INFO ] 2025-03-03 11:52:19.066 [main] ReportManager - Type "Mobile Number *"
+[INFO ] 2025-03-03 11:52:19.241 [main] ReportManager - Click "Create Account"
+[INFO ] 2025-03-03 11:52:19.244 [main] ReportManager - Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-03 11:52:20.906 [main] ReportManager - Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b"
+[DEBUG] 2025-03-03 11:52:20.908 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:21.782 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_11-52-21-778_03032025'
+[INFO ] 2025-03-03 11:52:21.784 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:21.785 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-03 11:52:21.787 [main] ReportManager - Verify that New User Signup is visible
+[INFO ] 2025-03-03 11:52:21.812 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_ACCOUNTCREATED_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:21.814 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+              Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_ACCOUNTCREATED_is_visible_successfully'              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:21.828 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 9' test cases in the current suite                                        
+                            Test Method: 'TestPackage.TestRegisterUser.Verify_that_loggedIn_is_visible_successfully'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:22.415 [main] ReportManager - Click "Continue"
+[INFO ] 2025-03-03 11:52:22.418 [main] ReportManager - Assert that the element located by "By.cssSelector: li:nth-child(10) a:nth-child(1)" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-03 11:52:23.650 [main] ReportManager - Get  dom  attribute "By.cssSelector: li:nth-child(10) a:nth-child(1)"
+[DEBUG] 2025-03-03 11:52:23.652 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:28.500 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_11-52-28-500_03032025'
+[INFO ] 2025-03-03 11:52:28.515 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:28.515 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-03 11:52:28.515 [main] ReportManager - Verify that New User Signup is visible
+[INFO ] 2025-03-03 11:52:28.560 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_loggedIn_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:28.560 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                 Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_loggedIn_is_visible_successfully'                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:28.560 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 9' test cases in the current suite                                        
+                         Test Method: 'TestPackage.TestRegisterUser.Verify_that_AccountDeleted_is_visible_successfully'                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:28.697 [main] ReportManager - Click " Delete Account"
+[INFO ] 2025-03-03 11:52:28.699 [main] ReportManager - Assert that the element located by "By.cssSelector: h2[class='title text-center'] b" is visible; hidden attribute is equal to "null".
+[INFO ] 2025-03-03 11:52:29.994 [main] ReportManager - Get  dom  attribute "By.cssSelector: h2[class='title text-center'] b"
+[DEBUG] 2025-03-03 11:52:29.995 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:30.447 [main] ReportManager - Successfully created attachment 'Screenshot - Assert_11-52-30-446_03032025'
+[INFO ] 2025-03-03 11:52:30.449 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2025-03-03 11:52:30.450 [main] ReportManager - Assertion passed
+[INFO ] 2025-03-03 11:52:30.450 [main] ReportManager - Verify that New User Signup is visible
+[INFO ] 2025-03-03 11:52:30.452 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_AccountDeleted_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:30.453 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+              Finished Execution of Test Method: 'TestPackage.TestRegisterUser.Verify_that_AccountDeleted_is_visible_successfully'              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.458 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 9' test cases in the current suite                                        
+                       Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_home_page_is_visible_successfully'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.462 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_home_page_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:30.462 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+            Finished Execution of Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_home_page_is_visible_successfully'            
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.477 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 9' test cases in the current suite                                        
+                  Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_LoginToYourAccount_is_visible_successfully'                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.481 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_LoginToYourAccount_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:30.482 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+       Finished Execution of Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_LoginToYourAccount_is_visible_successfully'       
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.488 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 9' test cases in the current suite                                        
+                       Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_loggedIn_is_visible_successfully'                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.544 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: Verify_that_loggedIn_is_visible_successfully'
+[INFO ] 2025-03-03 11:52:30.545 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+            Finished Execution of Test Method: 'TestPackage.TestLoginUserWithValidData.Verify_that_loggedIn_is_visible_successfully'            
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.550 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-03-03 11:52:30.554 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

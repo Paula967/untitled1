@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 9' test cases in the current suite                                        
+                            Test Method: 'TestPackage.TestRegisterUser.Verify_that_home_page_is_visible_successfully'                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Assert that the element located by "By.cssSelector: div[class='item active'] div[class='col-sm-6'] h2" is visible; hidden attribute is equal to "null". @03-03-2025 11:51:54.0095 AM
+[ReportManager] Get  dom  attribute "Full-Fledged practice website for Automation Engineers" @03-03-2025 11:51:54.0325 AM
+[ReportManager] Expected "null", and actual "null" @03-03-2025 11:51:54.0326 AM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_11-52-04-016_03032025' @03-03-2025 11:52:04.0032 AM
+[ReportManager] Expected "null", and actual "null" @03-03-2025 11:52:04.0033 AM
+[ReportManager] Assertion passed @03-03-2025 11:52:04.0035 AM
+[ReportManager] Verify that home page is visible successfully @03-03-2025 11:52:04.0036 AM
