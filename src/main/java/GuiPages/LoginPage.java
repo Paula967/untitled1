@@ -1,7 +1,6 @@
 package GuiPages;
 
 import com.shaft.driver.SHAFT;
-import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage{
 
@@ -9,15 +8,8 @@ public class LoginPage extends BasePage{
         super(driver);
     }
 
-    public By getLoggedInUserName(){
-        return getLocator(locatorType.CSS,"li:nth-child(10) a:nth-child(1)");
-    }
     public LoginPage assertLoggedInUserName(){
-        driver.assertThat()
-                .element(getLoggedInUserName())
-                .isVisible()
-                .withCustomReportMessage("Verify that New User Signup is visible")
-                .perform();
+        assertElementIsVisible(locatorType.CSS,"li:nth-child(10) a:nth-child(1)");
         return this;
     }
     public SignUpAndLoginPage clickOnLogout(){

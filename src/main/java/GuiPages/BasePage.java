@@ -37,8 +37,17 @@ public class BasePage {
     protected void selectElement(locatorType Type, String Value ,String Option){
         driver.element().select(getLocator(Type,Value),Option);
     }
+
     protected String getElementText(locatorType type, String value) {
        return driver.element().getText(getLocator(type,value));
+    }
+
+    protected void assertElementIsVisible(locatorType type, String value) {
+        driver.assertThat()
+                .element(getLocator(type,value))
+                .isVisible()
+                .withCustomReportMessage("Verify that element is visible")
+                .perform();
     }
 
 }

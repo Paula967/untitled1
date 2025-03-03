@@ -10,15 +10,8 @@ public class SignUpPage extends BasePage{
         super(driver);
     }
 
-    public By EnterAccountInformationLocator(){
-        return getLocator(locatorType.XPATH,"//b[normalize-space()='Enter Account Information']");
-    }
     public void assertEnterAccountInformationLocator(){
-        driver.assertThat()
-                .element(EnterAccountInformationLocator())
-                .isVisible()
-                .withCustomReportMessage("Verify that New User Signup is visible")
-                .perform();
+        assertElementIsVisible(locatorType.XPATH,"//b[normalize-space()='Enter Account Information']");
     }
 
     public SignUpPage fillAccountInformation(String Name, String Password, int Day, String Months, int Year){

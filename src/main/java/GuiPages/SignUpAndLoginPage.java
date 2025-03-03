@@ -11,15 +11,8 @@ public class SignUpAndLoginPage extends BasePage{
         super(driver);
     }
 
-    public By getSignUpHeader(){
-        return getLocator(locatorType.CSS,"div[class='signup-form'] h2");
-    }
     public SignUpAndLoginPage assertSignUpHeader(){
-        driver.assertThat()
-                .element(getSignUpHeader())
-                .isVisible()
-                .withCustomReportMessage("Verify that New User Signup is visible")
-                .perform();
+        assertElementIsVisible(locatorType.CSS,"div[class='signup-form'] h2");
         return this;
     }
 
@@ -42,22 +35,16 @@ public class SignUpAndLoginPage extends BasePage{
 
     public LoginPage clickOnLoginButton(){
         clickElement(locatorType.CSS,"button[data-qa='login-button']");
-        return new LoginPage(driver);
-    }
-    public By getSignInHeader(){
-        return getLocator(locatorType.CSS,"div[class='login-form'] h2");
+            return new LoginPage(driver);
     }
 
     public SignUpAndLoginPage assertSignInHeader(){
-        driver.assertThat()
-                .element(getSignInHeader())
-                .isVisible()
-                .withCustomReportMessage("Verify that New User Signup is visible")
-                .perform();
+        assertElementIsVisible(locatorType.CSS,"div[class='login-form'] h2");
         return this;
     }
-    public By getErrorMessageWithIncorrectLoginData(){
-        return getLocator(locatorType.XPATH,
+
+    public void assertErrorMessageWithIncorrectLoginData(){
+        assertElementIsVisible(locatorType.XPATH,
                 "//p[normalize-space()='Your email or password is incorrect!']");
     }
 

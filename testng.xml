@@ -5,6 +5,7 @@
         <classes>
             <class name="TestPackage.TestRegisterUser"/>
             <class name="TestPackage.TestLoginUserWithValidData"/>
+            <class name="TestPackage.TestLoginWithInvalidData"/>
         </classes>
     </test>
 </suite>
