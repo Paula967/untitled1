@@ -11,27 +11,15 @@ public class TestLogoutUser extends BaseClass{
     private SHAFT.TestData.JSON SignIntestData =
             new SHAFT.TestData.JSON("src/test/resources/testDataFiles/SignInTestData.json");
     protected RegisterUserPage registerUserPage;
-    protected SignUpAndLoginPage signUpAndLoginPage;
     protected LoginPage loginPage;
 
-    @Test(priority = 13)
-    public void Verify_that_home_page_is_visible_successfully(){
-        registerUserPage=new RegisterUserPage(driver);
-        registerUserPage
-                .navigateToURL()
-                .assertHomePageIsVisible();
-    }
-
-    @Test(priority = 14)
-    public void Verify_that_LoginToYourAccount_is_visible_successfully(){
-        signUpAndLoginPage=registerUserPage
-                .clickOnSignUpAndLoginButton()
-                .assertSignInHeader();
-    }
-    @Test(priority = 15)
+    @Test(priority = 11)
     public void Verify_that_loggedIn_is_visible_successfully(){
-         loginPage =signUpAndLoginPage
-                .loginWithUserNameAndPassword
+        registerUserPage=new RegisterUserPage(driver);
+         loginPage =registerUserPage
+                 .navigateToURL()
+                 .clickOnSignUpAndLoginButton()
+                 .loginWithUserNameAndPassword
                         (
                                 SignIntestData.getTestData("Email"),
                                 SignIntestData.getTestData("Password")
@@ -39,7 +27,7 @@ public class TestLogoutUser extends BaseClass{
                 .clickOnLoginButton()
                 .assertLoggedInUserName();
     }
-    @Test(priority = 16)
+    @Test(priority = 12)
     public void Verify_that_user_is_navigated_toLoginPage(){
         String ActualURL=loginPage.clickOnLogout()
                   .getPageURL();

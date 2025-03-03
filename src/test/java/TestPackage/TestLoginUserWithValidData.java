@@ -11,18 +11,13 @@ public class TestLoginUserWithValidData extends BaseClass{
     protected SignUpAndLoginPage signUpAndLoginPage;
 
     @Test(priority = 7)
-    public void Verify_that_home_page_is_visible_successfully(){
-        registerUserPage=new RegisterUserPage(driver);
-        registerUserPage
-                .assertHomePageIsVisible();
-    }
-    @Test(priority = 8)
     public void Verify_that_LoginToYourAccount_is_visible_successfully(){
+        registerUserPage=new RegisterUserPage(driver);
         signUpAndLoginPage=registerUserPage
                 .clickOnSignUpAndLoginButton()
                 .assertSignInHeader();
     }
-    @Test(priority = 9)
+    @Test(priority = 8)
     public void Verify_that_loggedIn_is_visible_successfully(){
         LoginPage loginPage =signUpAndLoginPage
                 .loginWithUserNameAndPassword

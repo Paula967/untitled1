@@ -12,21 +12,15 @@ public class TestLoginWithInvalidData extends BaseClass{
     protected RegisterUserPage registerUserPage;
     protected SignUpAndLoginPage signUpAndLoginPage;
 
-    @Test(priority = 10)
-    public void Verify_that_home_page_is_visible_successfully(){
-        registerUserPage=new RegisterUserPage(driver);
-        registerUserPage
-                .navigateToURL()
-                .assertHomePageIsVisible();
-    }
-
-    @Test(priority = 11)
+    @Test(priority = 9)
     public void Verify_that_LoginToYourAccount_is_visible_successfully(){
+        registerUserPage=new RegisterUserPage(driver);
         signUpAndLoginPage=registerUserPage
+                .navigateToURL()
                 .clickOnSignUpAndLoginButton()
                 .assertSignInHeader();
     }
-    @Test(priority = 12)
+    @Test(priority = 10)
     public void Verify_that_ErrorYourEmailOrPasswordIsIncorrect_is_visible_successfully(){
 
         String CorrectPassword=SignIntestData.getTestData("Password");

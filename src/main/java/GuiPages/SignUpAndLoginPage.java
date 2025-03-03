@@ -26,6 +26,10 @@ public class SignUpAndLoginPage extends BasePage{
         clickElement(locatorType.CSS,"button[data-qa='signup-button']");
         return new SignUpPage(driver);
     }
+    public void assertErrorMessageWithAlreadyRegisteredUser(){
+        assertElementIsVisible(locatorType.CSS,
+                "body > section:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > p:nth-child(5)");
+    }
 
     public SignUpAndLoginPage loginWithUserNameAndPassword(String userName, String Password){
         enterText(locatorType.CSS,"input[data-qa='login-email']",userName);
